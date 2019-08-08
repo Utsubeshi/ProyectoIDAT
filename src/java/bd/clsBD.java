@@ -14,7 +14,8 @@ public class clsBD {
     public void Conectar() {
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;database=SoporteTI","sa","g3r4ld1n3");
+            cn = DriverManager.getConnection("jdbc:sqlserver://sql5041.site4now.net:1433;database=DB_A4C426_soporteti","DB_A4C426_soporteti_admin","g3r1w1s0s0r10");
+            //cn = DriverManager.getConnection("jdbc:sqlserver://localhost:1433;database=SoporteTI","sa","g3r4ld1n3");
         } catch (ClassNotFoundException | SQLException ex) {
             System.out.println(ex.getMessage());
         }

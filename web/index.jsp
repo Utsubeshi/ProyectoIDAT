@@ -15,7 +15,7 @@
             <form method="POST" action="Login">
                 <div class="box-logo"><img src="img/LogoIndex.png" alt=""></div> 
                 <div class="group">
-                    <input type="text" required="required" name="usuario" id="usuario"/><span class="highlight"></span><span class="bar"></span>
+                    <input type="text" required="required" name="usuario" id="usuario" autocomplete="off"/><span class="highlight"></span><span class="bar"></span>
                     <label>Usuario</label>
                 </div>
                 <div class="group">
